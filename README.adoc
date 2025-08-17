@@ -1,1 +1,1 @@
-= http://notreniev.github.io/resume[Everton Canez Resume]
+= http://everton-canez.github.io/resume[Everton Canez Resume]
