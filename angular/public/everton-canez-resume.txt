@@ -1,0 +1,67 @@
+Everton Canez
+Front-End Developer
+Setúbal Area, Portugal
+LinkedIn: https://www.linkedin.com/in/everton-canez/
+GitHub: https://github.com/everton-canez
+
+PROFESSIONAL SUMMARY
+Front-end and full-stack developer with experience building web and mobile applications, APIs, and software platforms across enterprise, media, and public-sector environments. Committed to collaborative teamwork, delivering business value, and creating solid user experiences.
+
+PROFESSIONAL EXPERIENCE
+
+Front-End Developer | Siemens
+April 2023 - Present
+- Develop front-end experiences for Siemens Smart Sales Representatives.
+- Focus on user interface development, user experience, automated testing, and continuous integration and delivery.
+
+Senior Front-End Developer | Alter Solutions
+January 2022 - March 2023
+- Consulted on Siemens Internet Premium Portal projects, delivering front-end development and automated testing.
+- Served part-time as Scrum Master.
+
+Senior Developer | Luiza Labs
+April 2021 - January 2022
+- Developed front-end and back-end software solutions to improve agility for business teams.
+- Contributed to automated testing.
+
+Full Stack Web Developer | Hotmedia (Web Broadcast Radio & Television)
+September 2019 - April 2021
+- Worked across front-end, back-end, and mobile application development.
+- Contributed to automated testing and software architecture.
+
+Full Stack Web Developer | PROCERGS
+August 2011 - April 2021
+- Created and maintained application models, proofs of concept, templates, and microservices.
+- Supported a technical team serving more than 200 front-end developers.
+- Evaluated new technologies and shared engineering practices through documentation and technical writing.
+- Supported Jenkins delivery pipelines and automated builds and releases using Azure DevOps Server.
+
+Computer Analyst | PROCERGS
+April 2011 - August 2011
+- Supported development teams using Angular and Ionic with Cordova and Capacitor.
+- Maintained microservices for the National Post Company and front-end delivery pipelines on Jenkins.
+- Worked on the company's internal app store and Android mobile applications.
+
+Web Developer | PROCERGS
+February 2005 - April 2011
+- Developed Java and Oracle Workflow systems for business management teams.
+- Built Java SOAP web services to integrate business systems.
+- Developed user interfaces using JSF and in-house Java frameworks.
+
+EDUCATION
+
+Postgraduate Course, Computer Software Engineering for Government Solutions
+University of Santa Cruz do Sul | August 2014 - May 2016
+
+Information Systems Technologist
+University of Technology SENACRS | August 2007 - May 2010
+
+TECHNICAL SKILLS
+Languages and frameworks: JavaScript, Angular, AngularJS, Ionic, Node.js, Java, HTML, CSS, Sass, Bootstrap, JSF
+Mobile development: Android, Cordova, Capacitor
+Tools and delivery: Git, GitHub, GitLab, Docker, npm, Jenkins, Azure DevOps, CI/CD, automated testing
+Practices: Front-end and back-end development, software architecture, cross-browser testing, Agile, Scrum, Kanban, technical documentation
+
+LANGUAGES
+Portuguese - Native
+English - Fluent

@@ -5,6 +5,7 @@ This is a standalone Angular version of the portfolio. It lives in `angular/` an
 The app uses Angular 22. Use Node.js 22.22.3+, 24.15.0+, or 26.0.0+; Node.js 26 is recommended.
 Global styles are authored in SCSS and use rem units for sizing.
 The portfolio sections are separate lazy-loaded routes: `/`, `/about`, `/experience`, `/skills`, `/work`, and `/interests`. Contact links open the LinkedIn profile. The build also emits a `404.html` fallback so GitHub Pages can load those routes directly and on refresh.
+An ATS-focused, semantic HTML resume is available at `/resume.html`, with a downloadable plain-text version at `/everton-canez-resume.txt`.
 
 ## Run locally
 
