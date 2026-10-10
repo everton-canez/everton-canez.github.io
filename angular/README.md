@@ -19,4 +19,6 @@ npm start
 npm run build
 ```
 
-The production build is written to `dist/browser`. Its base URL is `/angular/`, ready to serve the build output from the `/angular/` path on GitHub Pages.
+The production build is written to `dist/browser` with a root base URL, ready to publish as the `everton-canez.github.io` user site. GitHub Pages does not automatically build an Angular app from a nested folder; the workflow in `.github/workflows/deploy-pages.yml` builds this app and publishes the compiled output.
+
+To enable deployment, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Push to `master` to publish the Angular app at `https://everton-canez.github.io/`.

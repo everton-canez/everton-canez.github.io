@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "ng serve",
-    "build": "ng build --base-href /angular/ && node scripts/create-gh-pages-fallback.mjs",
+    "build": "ng build --base-href / && node scripts/create-gh-pages-fallback.mjs",
     "watch": "ng build --watch --configuration development"
   },
   "dependencies": {
