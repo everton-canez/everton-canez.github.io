@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
           <p>Over two decades in software have taken me from Java and public-sector platforms to modern front-end applications, mobile products, and design systems. Today I focus on building accessible, dependable interfaces with thoughtful teams.</p>
           <div class="social-links">
             <a href="https://www.linkedin.com/in/everton-canez/" target="_blank" rel="noopener noreferrer">LINKEDIN <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/notreniev" target="_blank" rel="noopener noreferrer">GITHUB <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/everton-canez" target="_blank" rel="noopener noreferrer">GITHUB <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </div>
