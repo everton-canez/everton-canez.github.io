@@ -1,2 +1,5 @@
 .DS_Store
 template/
+angular/node_modules/
+angular/dist/
+angular/.angular/
