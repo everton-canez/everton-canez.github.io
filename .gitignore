@@ -3,3 +3,4 @@ template/
 angular/node_modules/
 angular/dist/
 angular/.angular/
+angular/src/app/blog/blog-posts.generated.ts

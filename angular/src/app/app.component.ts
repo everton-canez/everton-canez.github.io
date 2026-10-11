@@ -30,6 +30,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
         <a routerLink="/skills" routerLinkActive="is-active" (click)="closeMenu()">Skills</a>
         <a routerLink="/work" routerLinkActive="is-active" (click)="closeMenu()">Selected work</a>
         <a routerLink="/interests" routerLinkActive="is-active" (click)="closeMenu()">Interests</a>
+        <a routerLink="/blog" routerLinkActive="is-active" (click)="closeMenu()">Blog</a>
         <a href="/resume.html" target="_blank" rel="noopener noreferrer" class="resume-nav-link" (click)="closeMenu()">Resume</a>
         <a href="https://www.linkedin.com/in/everton-canez/" target="_blank" rel="noopener noreferrer" class="nav-contact" (click)="closeMenu()">Get in touch <span aria-hidden="true">↗</span></a>
       </nav>
