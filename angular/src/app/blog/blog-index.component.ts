@@ -11,9 +11,16 @@ import { BLOG_POSTS } from './blog-posts.generated';
     <section id="blog" class="blog-page page-grid" aria-labelledby="blog-title">
       <div class="section-label"><span>07</span> — NOTES & IDEAS</div>
       <div class="blog-content">
+        <img
+          class="blog-header-image"
+          src="/assets/code_soup_movies_terminal_header.png"
+          alt="Code and movies on a terminal screen"
+          width="680"
+          height="440"
+        >
         <p class="eyebrow">THE BLOG</p>
         <h1 id="blog-title">Thoughts on <span>building for the web.</span></h1>
-        <p class="blog-intro">Notes, lessons, and ideas from a life spent making things for the web.</p>
+        <p class="blog-intro">Code &amp; Movies</p>
 
         @if (posts.length) {
           <div class="blog-list">

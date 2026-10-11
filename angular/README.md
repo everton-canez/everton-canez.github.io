@@ -22,6 +22,8 @@ npm run build
 
 The production build is written to `dist/browser` with a root base URL, ready to publish as the `everton-canez.github.io` user site. GitHub Pages does not automatically build an Angular app from a nested folder; the workflow in `.github/workflows/deploy-pages.yml` builds this app and publishes the compiled output.
 
+Place static images, icons, and other public files in `public/assets/`; they are copied to the deployed site under `/assets/`.
+
 To enable deployment, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Push to `master` to publish the Angular app at `https://everton-canez.github.io/`.
 
 ## Writing a blog post
