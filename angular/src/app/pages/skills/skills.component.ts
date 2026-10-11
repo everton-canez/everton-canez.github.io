@@ -20,7 +20,7 @@ import { Component } from '@angular/core';
           </div>
           <div class="workflow">
             <p class="eyebrow">HOW I WORK</p>
-            <p>Front-end and back-end development <span>·</span> Mobile apps <span>·</span> Software architecture <span>·</span> Automated testing <span>·</span> CI/CD <span>·</span> Agile, Scrum &amp; Kanban <span>·</span> Documentation and knowledge sharing</p>
+            <p>Front-end and back-end development <span>·</span> Mobile apps <span>·</span> Software architecture <span>·</span> Automated and cross-browser testing <span>·</span> CI/CD <span>·</span> Agile, Scrum &amp; Kanban <span>·</span> Documentation and knowledge sharing</p>
             <p class="language-line">Portuguese — native <span>·</span> English — fluent</p>
           </div>
         </div>
@@ -30,7 +30,8 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
   readonly skills = [
-    'Angular', 'TypeScript', 'JavaScript', 'HTML & CSS', 'Sass', 'Ionic',
-    'Node.js', 'Java', 'Android', 'Git', 'Docker', 'CI/CD'
+    'Angular', 'TypeScript', 'JavaScript', 'HTML & CSS', 'Sass',
+    'Ionic', 'Capacitor', 'Node.js', 'Git', 'GitHub', 'GitLab', 'npm', 'Docker', 'Podman',
+    'Azure DevOps', 'CI/CD'
   ];
 }
