@@ -1466,6 +1466,15 @@ p {
   line-height: 1.8;
 }
 
+.blog-header-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  border: 0.0625rem solid var(--line);
+  border-radius: 0.25rem;
+}
+
 .blog-list {
   margin-top: 3.25rem;
   border-top: 0.0625rem solid var(--line);
