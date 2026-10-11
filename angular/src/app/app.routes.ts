@@ -26,6 +26,18 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/interests/interests.component').then((module) => module.InterestsComponent)
   },
   {
+    path: 'blog',
+    loadComponent: () => import('./blog/blog-index.component').then((module) => module.BlogIndexComponent)
+  },
+  {
+    path: 'blog/:slug',
+    loadComponent: () => import('./blog/blog-post.component').then((module) => module.BlogPostComponent)
+  },
+  {
+    path: 'admin',
+    loadComponent: () => import('./blog/blog-admin.component').then((module) => module.BlogAdminComponent)
+  },
+  {
     path: '**',
     redirectTo: ''
   }
