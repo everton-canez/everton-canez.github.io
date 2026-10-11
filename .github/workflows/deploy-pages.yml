@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - 'angular/**'
+      - 'index.html'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
