@@ -30,8 +30,6 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
   readonly skills = [
-    'Angular', 'TypeScript', 'JavaScript', 'HTML & CSS', 'Sass',
-    'Ionic', 'Capacitor', 'Node.js', 'Git', 'GitHub', 'GitLab', 'npm', 'Docker', 'Podman',
-    'Azure DevOps', 'CI/CD'
+    'Angular', 'TypeScript', 'JavaScript', 'HTML & CSS', 'Sass', 'Ionic', 'Capacitor', 'Node.js', 'Git', 'GitHub', 'GitLab', 'npm', 'Docker', 'Podman', 'Azure DevOps', 'CI/CD'
   ];
 }
