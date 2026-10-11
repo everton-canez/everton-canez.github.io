@@ -4,7 +4,7 @@ This is a standalone Angular version of the portfolio. It lives in `angular/` an
 
 The app uses Angular 22. Use Node.js 22.22.3+, 24.15.0+, or 26.0.0+; Node.js 26 is recommended.
 Global styles are authored in SCSS and use rem units for sizing.
-The portfolio sections are separate lazy-loaded routes: `/`, `/about`, `/experience`, `/skills`, `/work`, `/interests`, `/blog`, and `/admin` (GitHub-based blog publishing guide). Blog posts are authored in Markdown, converted during the build, and prerendered as static pages. Contact links open the LinkedIn profile. The build also emits a `404.html` fallback so GitHub Pages can load those routes directly and on refresh.
+The portfolio is a single page with anchored sections at `/#top`, `/#about`, `/#experience`, `/#skills`, `/#work`, and `/#interests`. The blog index remains at `/blog`, individual posts are available at `/blog/<slug>/`, and `/admin` is the GitHub-based blog publishing guide. Blog posts are authored in Markdown, converted during the build, and prerendered as static pages. Contact links open the LinkedIn profile. The build also emits a `404.html` fallback so GitHub Pages can load deep links directly and on refresh.
 An ATS-focused, semantic HTML resume is available at `/resume.html`, with a downloadable plain-text version at `/everton-canez-resume.txt`.
 
 ## Run locally
@@ -38,7 +38,7 @@ description: "A short summary for the post listing and search engines."
 Write the post in Markdown.
 ```
 
-Run `npm run build` to generate the post index and prerender `/blog/` and each published `/blog/<slug>/` page. Set `draft: true` in the frontmatter to keep a post out of the published site. Original blog writing is licensed under CC BY 4.0; see the repository-root `LICENSE`.
+Run `npm run build` to generate the post index and prerender the main portfolio page, `/blog`, and each published `/blog/<slug>/` page. Set `draft: true` in the frontmatter to keep a post out of the published site. Original blog writing is licensed under CC BY 4.0; see the repository-root `LICENSE`.
 
 The `/admin` page links to GitHub's file editor for creating and editing posts. It is a public publishing guide, not an authentication boundary: GitHub repository permissions control who can write, and repository branch protection/required reviews should be configured in GitHub Settings if publishing must require approval. Never put a GitHub token in the static app.
 

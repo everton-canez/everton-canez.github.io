@@ -1,6 +1,5 @@
 import { DatePipe } from '@angular/common';
-import { Component, inject } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { BLOG_POSTS } from './blog-posts.generated';
 
@@ -9,7 +8,7 @@ import { BLOG_POSTS } from './blog-posts.generated';
   standalone: true,
   imports: [DatePipe, RouterLink],
   template: `
-    <section class="blog-page page-grid" aria-labelledby="blog-title">
+    <section id="blog" class="blog-page page-grid" aria-labelledby="blog-title">
       <div class="section-label"><span>07</span> — NOTES & IDEAS</div>
       <div class="blog-content">
         <p class="eyebrow">THE BLOG</p>
@@ -48,8 +47,4 @@ import { BLOG_POSTS } from './blog-posts.generated';
 })
 export class BlogIndexComponent {
   readonly posts = BLOG_POSTS;
-
-  constructor() {
-    inject(Title).setTitle('Blog — Everton Canez');
-  }
 }

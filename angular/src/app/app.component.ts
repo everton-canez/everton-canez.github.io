@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'ec-root',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive, RouterOutlet],
+  imports: [RouterLink, RouterOutlet],
   template: `
     <header class="site-header">
-      <a class="wordmark" routerLink="/" aria-label="Everton Canez, home" (click)="closeMenu()">
+      <a class="wordmark" routerLink="/" fragment="top" aria-label="Everton Canez, home" (click)="closeMenu()">
         <span class="wordmark-mark">EC</span>
         <span>Everton Canez</span>
       </a>
@@ -24,12 +24,12 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
       </button>
 
       <nav id="primary-navigation" class="navigation" [class.is-open]="menuOpen" aria-label="Main navigation">
-        <a routerLink="/" routerLinkActive="is-active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()">Home</a>
-        <a routerLink="/about" routerLinkActive="is-active" (click)="closeMenu()">About</a>
-        <a routerLink="/experience" routerLinkActive="is-active" (click)="closeMenu()">Experience</a>
-        <a routerLink="/skills" routerLinkActive="is-active" (click)="closeMenu()">Skills</a>
-        <a routerLink="/work" routerLinkActive="is-active" (click)="closeMenu()">Selected work</a>
-        <a routerLink="/interests" routerLinkActive="is-active" (click)="closeMenu()">Interests</a>
+        <a routerLink="/" fragment="top" (click)="closeMenu()">Home</a>
+        <a routerLink="/" fragment="about" (click)="closeMenu()">About</a>
+        <a routerLink="/" fragment="experience" (click)="closeMenu()">Experience</a>
+        <a routerLink="/" fragment="skills" (click)="closeMenu()">Skills</a>
+        <a routerLink="/" fragment="work" (click)="closeMenu()">Selected work</a>
+        <a routerLink="/" fragment="interests" (click)="closeMenu()">Interests</a>
         <a href="/resume.html" target="_blank" rel="noopener noreferrer" class="resume-nav-link" (click)="closeMenu()">Resume</a>
         <a href="https://www.linkedin.com/in/everton-canez/" target="_blank" rel="noopener noreferrer" class="nav-contact" (click)="closeMenu()">Get in touch <span aria-hidden="true">↗</span></a>
       </nav>
@@ -40,7 +40,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
     </main>
 
     <footer class="site-footer">
-      <a class="wordmark footer-mark" routerLink="/"><span class="wordmark-mark">EC</span><span>Everton Canez</span></a>
+      <a class="wordmark footer-mark" routerLink="/" fragment="top"><span class="wordmark-mark">EC</span><span>Everton Canez</span></a>
     </footer>
   `
 })
