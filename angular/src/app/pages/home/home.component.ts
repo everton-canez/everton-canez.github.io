@@ -6,13 +6,13 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   template: `
-    <section class="hero page-grid" aria-labelledby="hero-title">
+    <section id="top" class="hero page-grid" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> FRONT-END DEVELOPER <span class="eyebrow-divider">/</span> PORTUGAL</p>
         <h1 id="hero-title">Thoughtful code.<br><span>Useful experiences.</span></h1>
         <p class="hero-intro">I’m Everton — a front-end developer who turns complex problems into clear, human digital products.</p>
         <div class="hero-actions">
-          <a class="button button-dark" routerLink="/work">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-dark" routerLink="/" fragment="work">Explore my work <span aria-hidden="true">↗</span></a>
           <a class="text-link" href="https://www.linkedin.com/in/everton-canez/" target="_blank" rel="noopener noreferrer">Let’s talk <span aria-hidden="true">↗</span></a>
         </div>
         <div class="hero-meta">
@@ -31,7 +31,7 @@ import { RouterLink } from '@angular/router';
         <span class="visual-orbit orbit-one"></span>
         <span class="visual-orbit orbit-two"></span>
       </div>
-      <a class="scroll-cue" routerLink="/about"><span class="scroll-line"></span> EXPLORE MY STORY <span aria-hidden="true">↗</span></a>
+      <a class="scroll-cue" routerLink="/" fragment="about"><span class="scroll-line"></span> EXPLORE MY STORY <span aria-hidden="true">↗</span></a>
     </section>
   `
 })
