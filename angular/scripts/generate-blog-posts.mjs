@@ -65,6 +65,6 @@ for (const fileName of files) {
 
 posts.sort((left, right) => right.date.localeCompare(left.date) || left.title.localeCompare(right.title));
 
-const output = `import type { BlogPost } from './blog-post.model';\n\nexport const BLOG_POSTS: BlogPost[] = ${JSON.stringify(posts, null, 2)};\n`;
+const output = `import type { BlogPost } from './models/blog-post.model';\n\nexport const BLOG_POSTS: BlogPost[] = ${JSON.stringify(posts, null, 2)};\n`;
 await writeFile(generatedFile, output);
 console.log(`Generated blog index with ${posts.length} published post${posts.length === 1 ? '' : 's'}.`);

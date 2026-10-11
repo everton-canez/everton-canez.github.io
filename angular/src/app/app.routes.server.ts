@@ -31,6 +31,10 @@ export const serverRoutes: ServerRoute[] = [
     renderMode: RenderMode.Prerender
   },
   {
+    path: 'admin',
+    renderMode: RenderMode.Prerender
+  },
+  {
     path: 'blog/:slug',
     renderMode: RenderMode.Prerender,
     getPrerenderParams: async () => BLOG_POSTS.map(({ slug }) => ({ slug }))
