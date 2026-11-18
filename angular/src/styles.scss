@@ -342,11 +342,12 @@ p {
   flex-direction: column;
   justify-content: space-between;
   padding: 1.625rem;
-  border: 0.0625rem solid #cbd9cc;
+  border: 0.0625rem solid #aebcaf;
   background:
-    linear-gradient(90deg, transparent 49.8%, rgb(63 118 90 / 8%) 50%, transparent 50.2%),
-    linear-gradient(transparent 49.8%, rgb(63 118 90 / 8%) 50%, transparent 50.2%),
-    #e9eee8;
+    linear-gradient(90deg, transparent 49.8%, rgb(63 118 90 / 12%) 50%, transparent 50.2%),
+    linear-gradient(transparent 49.8%, rgb(63 118 90 / 12%) 50%, transparent 50.2%),
+    #f1f4ef;
+  box-shadow: 0 1.25rem 3.75rem rgb(0 0 0 / 24%);
   transform: rotate(2deg);
 }
 
@@ -360,7 +361,7 @@ p {
 }
 
 .visual-monogram {
-  color: var(--ink);
+  color: #20221f;
   font-size: clamp(6.5625rem, 14vw, 11.25rem);
   font-weight: 600;
   line-height: 0.8;
@@ -368,7 +369,7 @@ p {
 }
 
 .visual-monogram span {
-  color: var(--accent);
+  color: #3f765a;
 }
 
 .visual-card-caption {
